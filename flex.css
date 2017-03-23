@@ -1,0 +1,93 @@
+
+div {
+    border: 1px solid black;
+    display: -webkit-flex;
+    display: flex;
+}
+ul {
+    display: flex;
+
+}
+.box {
+    width: 300px;
+    height: 200px;
+    margin: 100px auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.one,.three,.two,.five,.four,.six {
+    width: 45px;
+    height: 47px;
+    margin-bottom: 30px;
+}
+.one {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.two {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+#two-a {
+    width: 29px;
+    border: none;
+}
+#two-b {
+    border: none;
+    align-self: flex-start;
+}
+
+#three-a,#three-c,#three-b{
+    border: none;
+
+}
+#three-b {
+    align-self: center;
+}
+#three-c {
+    align-self: flex-end;
+}
+.four{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+
+}
+#four-a,#four-b {
+    border: none;
+    width: 42px;
+    justify-content: space-between;
+}
+.five {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+#five-a,#five-b,#five-c {
+    border: none;
+    width: 44px;
+}
+#five-a,#five-c {
+    justify-content: space-between;
+}
+#five-b {
+    justify-content: center;
+}
+.six {
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+#six-a,#six-b,#six-c {
+    border: none;
+    width: 42px;
+    justify-content: space-around;
+
+}
